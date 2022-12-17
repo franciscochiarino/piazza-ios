@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		15299DBF294E2BFD001841EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15299DBD294E2BFD001841EE /* LaunchScreen.storyboard */; };
 		15299DCA294E2BFD001841EE /* PiazzaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15299DC9294E2BFD001841EE /* PiazzaTests.swift */; };
 		15299DD5294E2BFD001841EE /* PiazzaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15299DD4294E2BFD001841EE /* PiazzaUITests.swift */; };
+		15DEE61A294E5D9400876F2D /* Turbo in Frameworks */ = {isa = PBXBuildFile; productRef = 15DEE619294E5D9400876F2D /* Turbo */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15DEE61A294E5D9400876F2D /* Turbo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +146,9 @@
 			dependencies = (
 			);
 			name = Piazza;
+			packageProductDependencies = (
+				15DEE619294E5D9400876F2D /* Turbo */,
+			);
 			productName = Piazza;
 			productReference = 15299DAF294E2BFC001841EE /* Piazza.app */;
 			productType = "com.apple.product-type.application";
@@ -216,6 +221,9 @@
 				Base,
 			);
 			mainGroup = 15299DA6294E2BFC001841EE;
+			packageReferences = (
+				15DEE618294E5D9400876F2D /* XCRemoteSwiftPackageReference "turbo-ios" */,
+			);
 			productRefGroup = 15299DB0294E2BFC001841EE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -590,6 +598,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		15DEE618294E5D9400876F2D /* XCRemoteSwiftPackageReference "turbo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hotwired/turbo-ios";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = "7.0.0-rc.7";
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		15DEE619294E5D9400876F2D /* Turbo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 15DEE618294E5D9400876F2D /* XCRemoteSwiftPackageReference "turbo-ios" */;
+			productName = Turbo;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 15299DA7294E2BFC001841EE /* Project object */;
 }
