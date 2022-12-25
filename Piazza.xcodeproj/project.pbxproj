@@ -13,6 +13,16 @@
 		15299DBF294E2BFD001841EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15299DBD294E2BFD001841EE /* LaunchScreen.storyboard */; };
 		15299DCA294E2BFD001841EE /* PiazzaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15299DC9294E2BFD001841EE /* PiazzaTests.swift */; };
 		15299DD5294E2BFD001841EE /* PiazzaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15299DD4294E2BFD001841EE /* PiazzaUITests.swift */; };
+		1563B7C82958E04600BAC0D7 /* ViewControllerVendor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1563B7C72958E04600BAC0D7 /* ViewControllerVendor.swift */; };
+		1563B7D029590A8400BAC0D7 /* PathDirectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1563B7CF29590A8400BAC0D7 /* PathDirectable.swift */; };
+		1577E78E2958BFF100A37648 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1577E78D2958BFF100A37648 /* Api.swift */; };
+		1577E7932958C28200A37648 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1577E7922958C28200A37648 /* RootViewController.swift */; };
+		1577E79C2958CAFB00A37648 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1577E79E2958CAFB00A37648 /* Localizable.strings */; };
+		1577E7AB2958D5C500A37648 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1577E7AA2958D5C500A37648 /* BaseNavigationController.swift */; };
+		1577E7B02958D5FF00A37648 /* RoutingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1577E7AF2958D5FF00A37648 /* RoutingController.swift */; };
+		1577E7B52958D72200A37648 /* path_configuration.json in Resources */ = {isa = PBXBuildFile; fileRef = 1577E7B42958D72200A37648 /* path_configuration.json */; };
+		1577E7BA2958D77800A37648 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1577E7B92958D77800A37648 /* Global.swift */; };
+		1577E7BF2958DEEE00A37648 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1577E7BE2958DEEE00A37648 /* WebViewController.swift */; };
 		15DEE61A294E5D9400876F2D /* Turbo in Frameworks */ = {isa = PBXBuildFile; productRef = 15DEE619294E5D9400876F2D /* Turbo */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +56,16 @@
 		15299DD0294E2BFD001841EE /* PiazzaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiazzaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15299DD4294E2BFD001841EE /* PiazzaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiazzaUITests.swift; sourceTree = "<group>"; };
 		15299DD6294E2BFD001841EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1563B7C72958E04600BAC0D7 /* ViewControllerVendor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerVendor.swift; sourceTree = "<group>"; };
+		1563B7CF29590A8400BAC0D7 /* PathDirectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathDirectable.swift; sourceTree = "<group>"; };
+		1577E78D2958BFF100A37648 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		1577E7922958C28200A37648 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		1577E79D2958CAFB00A37648 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1577E7AA2958D5C500A37648 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		1577E7AF2958D5FF00A37648 /* RoutingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingController.swift; sourceTree = "<group>"; };
+		1577E7B42958D72200A37648 /* path_configuration.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = path_configuration.json; sourceTree = "<group>"; };
+		1577E7B92958D77800A37648 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		1577E7BE2958DEEE00A37648 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +118,17 @@
 			isa = PBXGroup;
 			children = (
 				15299DB2294E2BFC001841EE /* AppDelegate.swift */,
+				1577E78D2958BFF100A37648 /* Api.swift */,
+				1577E7922958C28200A37648 /* RootViewController.swift */,
 				15299DB4294E2BFC001841EE /* SceneDelegate.swift */,
+				1577E7AA2958D5C500A37648 /* BaseNavigationController.swift */,
+				1577E7B42958D72200A37648 /* path_configuration.json */,
+				1577E7B92958D77800A37648 /* Global.swift */,
+				1577E7AF2958D5FF00A37648 /* RoutingController.swift */,
+				1577E7BE2958DEEE00A37648 /* WebViewController.swift */,
+				1563B7C72958E04600BAC0D7 /* ViewControllerVendor.swift */,
+				1577E79E2958CAFB00A37648 /* Localizable.strings */,
+				1563B7CF29590A8400BAC0D7 /* PathDirectable.swift */,
 				15299DBB294E2BFD001841EE /* Assets.xcassets */,
 				15299DBD294E2BFD001841EE /* LaunchScreen.storyboard */,
 				15299DC0294E2BFD001841EE /* Info.plist */,
@@ -236,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				15299DBF294E2BFD001841EE /* LaunchScreen.storyboard in Resources */,
+				1577E79C2958CAFB00A37648 /* Localizable.strings in Resources */,
 				15299DBC294E2BFD001841EE /* Assets.xcassets in Resources */,
+				1577E7B52958D72200A37648 /* path_configuration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +304,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "INFO_PLIST=\"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\"\nPLISTBUDDY=\"/usr/libexec/PlistBuddy\"\n\nif [ \"${CONFIGURATION}\" == \"Debug\" ]; then\n    $PLISTBUDDY -c \"Add :NSAppTransportSecurity dict\" \"${INFO_PLIST}\" || true\n    $PLISTBUDDY -c \"Add :NSAppTransportSecurity:NSAllowsArbitraryLoads bool true\" \" ${INFO_PLIST}\" || true\n    $PLISTBUDDY -c \"Set :NSAppTransportSecurity:NSAllowsArbitraryLoads true\" \"${INFO_PLIST}\"\nelse\n    $PLISTBUDDY -c \"Delete :NSAppTransportSecurity:NSAllowsArbitraryLoads\" \"${INFO_PLIST}\" || true\nfi\n\n ALLOWS_ARBITRARY_LOADS_ENABLED=$($PLISTBUDDY -c \"Print :NSAppTransportSecurity:NSAllowsArbitraryLoads\" \"${INFO_PLIST}\")\n if [ \"${ALLOWS_ARBITRARY_LOADS_ENABLED}\" == \"true\" ]; then\n    echo \"warning: ATS is disabled. :NSAppTransportSecurity:NSAllowsArbitraryLoads set to true. This is insecure and should not be used in release builds.\"\nfi\n";
+			shellScript = "INFO_PLIST=\"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\"\nPLISTBUDDY=\"/usr/libexec/PlistBuddy\"\n\nif [ \"${CONFIGURATION}\" == \"Debug\" ]; then\n    $PLISTBUDDY -c \"Add :NSAppTransportSecurity dict\" \"${INFO_PLIST}\" || true\n    $PLISTBUDDY -c \"Add :NSAppTransportSecurity:NSAllowsArbitraryLoads bool true\" \"${INFO_PLIST}\" || true\n    $PLISTBUDDY -c \"Set :NSAppTransportSecurity:NSAllowsArbitraryLoads true\" \"${INFO_PLIST}\"\nelse\n    $PLISTBUDDY -c \"Delete :NSAppTransportSecurity:NSAllowsArbitraryLoads\" \"${INFO_PLIST}\" || true\nfi\n\n ALLOWS_ARBITRARY_LOADS_ENABLED=$($PLISTBUDDY -c \"Print :NSAppTransportSecurity:NSAllowsArbitraryLoads\" \"${INFO_PLIST}\")\n if [ \"${ALLOWS_ARBITRARY_LOADS_ENABLED}\" == \"true\" ]; then\n    echo \"warning: ATS is disabled. :NSAppTransportSecurity:NSAllowsArbitraryLoads set to true. This is insecure and should not be used in release builds.\"\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -281,8 +313,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1577E78E2958BFF100A37648 /* Api.swift in Sources */,
 				15299DB3294E2BFC001841EE /* AppDelegate.swift in Sources */,
+				1563B7C82958E04600BAC0D7 /* ViewControllerVendor.swift in Sources */,
+				1577E7B02958D5FF00A37648 /* RoutingController.swift in Sources */,
+				1577E7932958C28200A37648 /* RootViewController.swift in Sources */,
+				1563B7D029590A8400BAC0D7 /* PathDirectable.swift in Sources */,
+				1577E7AB2958D5C500A37648 /* BaseNavigationController.swift in Sources */,
 				15299DB5294E2BFC001841EE /* SceneDelegate.swift in Sources */,
+				1577E7BA2958D77800A37648 /* Global.swift in Sources */,
+				1577E7BF2958DEEE00A37648 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +364,14 @@
 				15299DBE294E2BFD001841EE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1577E79E2958CAFB00A37648 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1577E79D2958CAFB00A37648 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
